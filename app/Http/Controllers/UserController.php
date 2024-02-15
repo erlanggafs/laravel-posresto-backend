@@ -63,6 +63,7 @@ class UserController extends Controller
         return view('pages.users.edit', compact('user'));
     }
 
+    //update
     public function update(Request $request, $id)
     {
         // validate the request..
